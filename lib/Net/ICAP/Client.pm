@@ -11,7 +11,7 @@ use HTTP::Request();
 use HTTP::Response();
 use POSIX();
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 sub _CHUNK_SIZE                { return 4096 }
 sub _FILE_READ_SIZE            { return 8192 }
@@ -729,7 +729,7 @@ Net::ICAP::Client - A client implementation of the ICAP (RFC 3507) protocol
 
 =head1 VERSION
 
-Version 0.07
+Version 0.08
 
 =head1 SYNOPSIS
 

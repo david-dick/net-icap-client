@@ -4,7 +4,7 @@ Net::ICAP::Client - A client implementation of the ICAP (RFC 3507) protocol
 
 # VERSION
 
-Version 0.07
+Version 0.08
 
 # SYNOPSIS
 
