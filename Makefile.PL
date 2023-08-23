@@ -48,7 +48,7 @@ WriteMakefile(
         'IO::Socket::INET'  => 0,
         'IO::Socket::SSL'   => 0,
         'Carp'              => 0,
-        'URI'               => 0,
+        'URI'               => '5.20', # includes URI::icap and URI::icaps
         'HTTP::Request'     => 0,
         'HTTP::Response'    => 0,
         'POSIX'             => 0,
